@@ -1,0 +1,185 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Georgia";
+}
+[href]{
+    color: red;
+}
+.site-content{
+    background-image: url("back2.jpg");
+    padding-top: 20px;
+    height: 900px;
+    background-repeat: no-repeat;
+}
+.nav{
+    float: right;
+    padding-right: 70px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 10px;
+    
+}
+.nav a {
+    color: #79E0EE;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  .nav a:hover {
+    color: #ff00ff;
+  }
+  .nav a::after {
+    background-color: #ff00ff;
+    transition: width 0.3s ease;
+  }
+  
+  
+
+#year,#released,#rated,#runtime,#genre,#imdbrating,#rt,#language{
+    font-size: 18px;
+}
+#boxoffice,#production{
+    font-size: 18px;
+}
+body{
+    height: 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+header{
+    padding-top: 20px;
+    font-size: 15px;
+    background-color: black;
+    color: #79E0EE;
+    height: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.search-div{    
+    width: auto;
+    margin: 40px 20% 20px 20%;
+    padding-top: 50px;
+}
+.head{
+    padding-left: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    display: block;
+    float: left;
+}
+.search-input {
+    width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1em;
+    background-color: #f0f0f0;
+    border: none;
+    height: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #search-button {
+    background-color: #ff00ff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  
+  
+  
+  #search-button:hover {
+    background-color: #ff0000;
+    color: #ffffff;
+    animation: color-pulse 1s infinite;
+  }
+  
+  @keyframes color-pulse {
+    0% {
+      background-color: #ff0000;
+    }
+    50% {
+      background-color: #00ff00;
+    }
+    100% {
+      background-color: #ff0000;
+    }
+  }
+  
+.output-div{
+    width: 60%;
+    margin: 5% 20%;
+    text-align: center;
+}
+#movie_poster{
+    border-radius: 10px;
+    height: 240px;
+    width: 155px;
+    float: left;
+}
+h1{
+    color: rgb(0, 0, 87);
+    text-align: center;
+}
+#plot,#writer,#actors,#director{
+    clear: both;
+    font-size: 18px;
+}
+#title{
+    color: brown;
+    font-size: 20px;
+}
+p{
+    margin: 5px 5px;
+    font-size: 1.25em;
+}
+footer{
+    width: 100%;
+    text-align: center;
+    position:fixed;
+    bottom:0px;
+    background-color: black;
+    color:white;
+    height:15px;
+    padding:20px;
+}
+hr{
+    border: 2px solid rgb(0, 72, 134);
+}
+@media(max-width: 767px){
+    .search-div{
+        margin: 5% 10%;
+    }
+    .search-input{
+        width: 60%;
+    }
+    #search-button{
+        width: auto;
+    }
+    .output-div{
+        width: 80%;
+        margin: 5% 10%;
+    }
+}
+h4{
+    padding: 20px 25px 0px 25px;
+    color: brown;
+}
+h3{
+    padding-top: 195px;
+    padding-left: 22px;
+    color: black;
+}
+.site-content2{
+    background-image: url("back2.jpg");
+    padding-top: 20px;
+    height: 500px;
+    background-repeat: no-repeat;
+}
